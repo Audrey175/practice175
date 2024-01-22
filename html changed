@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="doc.js"></script>
+    <title> DataTable</title>
+    <body>
+    <div class="wrapper">
+
+    <div class="topnav">
+        <a class="menu" href="#home">Home</a>
+        <a >Target Audience</a>
+        <a>Statistics</a>
+        <a>Support</a>
+        <a> About us </a>
+    </div>
+    </head>
+
+    
+
+        <ul class="breadcrumb">
+            <li><a href="#">Logo</a></li>
+            <li><a href="#">Statistics</a></li>
+            <li><a href="#">Outcome 5</a></li>
+            <li><a href="#">Comparison</a></li>
+        </ul>
+                
+        </div>    
+ <div class="container">
+            <div class="sidebar">
+                <h2>Age</h2>
+    <div class="section">
+        
+<form action="/action_page.php">
+    <label for="fname">State/ Territory</label><br>
+    <input type="text" id="fname" name="fname" value="Search by name or LGAs code..." style="text-align: match-parent;" size="50"><br>
+        <div class="checkbox-container">
+            <ul>
+                 
+                 <input type="checkbox" id="nsw">
+                 <label for="nsw">Select all</label>
+                
+                <li>
+                 <input type="checkbox" id="nsw">
+                <label for="nsw">New South Wales - NSW</label>
+                 </li>
+                 <li>
+                 <input type="checkbox" id="nsw">
+                 <label for="nsw">Albury - 10050</label>
+                 </li>
+                 <li>
+                 <input type="checkbox" id="nsw">
+                 <label for="nsw">Armidale Regional - 10180</label>
+                 </li>
+                 <li>
+                 <input type="checkbox" id="nsw">
+                 <label for="nsw">Ballina - 10250</label>
+                 </li>
+                 <li>
+                 <input type="checkbox" id="nsw">
+                 <label for="nsw">Balranald - 10300</label>
+                 </li>
+                 <li>
+                 <input type="checkbox" id="nsw">
+                 <label for="nsw">Bathurst Religional - 10470</label>
+                 </li>
+                 <li>
+                 <input type="checkbox" id="nsw">
+                 <label for="nsw">Victoria - Vic.</label>
+                 </li>
+                 <li>
+                 <input type="checkbox" id="nsw">
+                 <label for="nsw">Alpine - 20110</label>
+                 </li>
+                 <li>
+                 <input type="checkbox" id="nsw">
+                 <label for="nsw">Ararat - 20260</label>
+                 </li>
+                 <li>
+                <input type="checkbox" id="nsw">
+                 <label for="nsw">Ballarat - 20660</label>
+                 </li>
+                 <li>
+                 <input type="checkbox" id="nsw">
+                 <label for="nsw">Banyule - 20660</label>
+                 </li>
+                 <li>
+                 <input type="checkbox" id="nsw">
+                 <label for="nsw">Bass Coast - 20740</label>
+                 </li>
+                 <li>
+                 <input type="checkbox" id="nsw">
+                 <label for="nsw">Baw Baw - 20830</label>
+                 </li>
+                </ul>
+        </div>
+    </div>
+    <div class="section">
+        <h3>Status</h3>
+        <div class="checkbox-container">
+            <ul>
+                <li>
+            <input type="checkbox" id="indigenous">
+            <label for="indigenous">Select all</label>
+                </li>
+                <li>
+            <input type="checkbox" id="indigenous">
+            <label for="indigenous">Indigenous</label>
+            </li>
+            <li>
+            <input type="checkbox" id="indigenous">
+            <label for="indigenous">Non- indigenous</label>
+            </li>
+            <li>
+            <input type="checkbox" id="indigenous">
+            <label for="indigenous">Indigenous status was not specified</label>
+            </li>
+       </div>
+    </div>
+    <div class="section">
+        <h3>Gender</h3>
+        <div class="checkbox-container">
+            <ul>
+              <li>
+                <input type="checkbox" id="select-all">
+                <label for="select-all">Select all</label>
+              </li>
+              <li>
+                <input type="checkbox" id="female">
+                <label for="female">Female</label>
+              </li>
+              <li>
+                <input type="checkbox" id="male">
+                <label for="male">Male</label>
+              </li>
+            </ul>
+          </div>
+    </div>
+
+</div>
+                    
+                    <div id="btns"></div>
+                </div>
+            </div>
+    <div class="content">
+                <ul class="tab-list__list">
+                    <li class="tab-list__item"><a href="#tab-1" class="tab-list__link tab-list__link--is-active">Data Set 1</a></li>
+                    <li class="tab-list__item"><a href="#tab-2" class="tab-list__link">Data Set 2</a></li>
+                    <li class="tab-list__item"><a href="#tab-3" class="tab-list__link">Data Set 3</a></li>
+                    <li class="tab-list__item"><a href="#tab-4" class="tab-list__link">Data Set 4</a></li>
+                </ul>
+                <div class="header">
+                    <p>Age</p>
+                </div>
+      <div class="center-body">
+        <div class="view">
+        <div class="table-container">
+        <table>
+            <tr>
+              <th>LGA name</th>
+              <th>Total Values</th>
+              <th colspan="2">Arthritis</th>
+              <th colspan="2">Asthma</th>
+              <th colspan="2">Dementia</th>
+            </tr>
+            <tr>
+              <th> </th>
+              <th> % </th>
+              <th> Value </th>
+              <th> % </th>
+              <th> Value </th>
+              <th> % </th>
+              <th> Value </th>
+              <th> % </th>
+            </tr>
+            <tr>
+              <td>Albury</td>
+              <td>15</td>
+              <td>2425</td>
+              <td>13</td>
+            </tr>
+            <tr>
+              <td>H21</td>
+              <td>H22</td>
+              <td>H23</td>
+              <td>H24</td>
+            </tr>
+            <tr>
+              <td>H31</td>
+              <td>H32</td>
+              <td>H33</td>
+              <td>H34</td>
+            </tr>
+            <tr>
+              <td>H41</td>
+              <td>H42</td>
+              <td>H44</td>
+              <td>H44</td>
+            </tr>
+            <tr>
+              <td>H51</td>
+              <td>H52</td>
+              <td>H54</td>
+              <td>H54</td>
+            </tr>
+            <tr>
+              <td>H61</td>
+              <td>H62</td>
+              <td>H64</td>
+              <td>H64</td>
+            </tr>
+            <tr>
+              <td>H71</td>
+              <td>H72</td>
+              <td>H74</td>
+              <td>H74</td>
+            </tr>
+            <tr>
+              <td>H81</td>
+              <td>H82</td>
+              <td>H84</td>
+              <td>H84</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    </div>
+</body>
+</html>
+
+   
